@@ -20,9 +20,9 @@ Useful for creating sample data, character names, or just for fun.
 
 ---
 
-## 📸 Demo
-![Screenshot](./screenshot.png)  
-*(Replace with your own screenshot or GIF demo)*
+## 🎥 Demo
+
+![Random Name Generator Demo](. /demo.gif)
 
 ---
 
