@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function NameGenerator() {
-  const firstNames = ["Sangita", "Arjun", "Maya", "Ravi", "Ananya"];
+  const firstNames = ["Orlando", "Arjun", "Maya", "Ravi", "Ananya"];
   const lastNames = ["Sharma", "Patel", "Iyer", "Khan", "Das"];
 
   const [name, setName] = useState("");
