@@ -22,7 +22,7 @@ Useful for creating sample data, character names, or just for fun.
 
 ## 🎥 Demo
 
-![Random Name Generator Demo]('./demo.gif')
+![Random Name Generator Demo](./demo.gif)
 
 ---
 
