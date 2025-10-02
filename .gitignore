@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# editor settings
+.vscode/
+
+# nested folder (ignore accidental project inside project)
+random-name-generator/
