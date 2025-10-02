@@ -1,3 +1,4 @@
+/* Base styles */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,100 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  justify-content: center;
+  /* horizontal centering */
+  align-items: flex-start;
+  /* slightly above center */
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding-top: 12vh;
+  /* push down from top */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Container for the app */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Generator card */
+.generator-box {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.generator-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.generator-box h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Generated name display */
+.name-display {
+  font-size: 1.6rem;
+  /* slightly larger */
+  font-weight: bold;
+  margin: 1.5rem 0;
+  /* more breathing room */
+  color: #006699;
+  /* distinct accent color */
+}
+
+/* Buttons */
+button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #004f87;
+  transform: scale(0.98);
+}
+
+/* Responsive tweaks */
+@media (max-width: 500px) {
+  .generator-box {
+    padding: 1.5rem;
+  }
+
+  .generator-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .name-display {
+    font-size: 1.3rem;
+  }
 }

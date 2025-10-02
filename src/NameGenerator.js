@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 export default function NameGenerator() {
-  const firstNames = ["Orlando", "Arjun", "Maya", "Ravi", "Ananya"];
-  const lastNames = ["Sharma", "Patel", "Iyer", "Khan", "Das"];
+  const firstNames = ["Tlaloc", "Perun", "Orion", "Cerus", "Rowan", "Shlok"];
+  const lastNames = ["Osian", "Noveau", "Morrigan", "Oakenstead", "Biorix"];
 
   const [name, setName] = useState("");
   const [copied, setCopied] = useState(false);
