@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/random-name-generator/static/css/main.4aa48fbc.css",
+    "main.js": "/random-name-generator/static/js/main.773a85e9.js",
+    "index.html": "/random-name-generator/index.html",
+    "main.4aa48fbc.css.map": "/random-name-generator/static/css/main.4aa48fbc.css.map",
+    "main.773a85e9.js.map": "/random-name-generator/static/js/main.773a85e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4aa48fbc.css",
+    "static/js/main.773a85e9.js"
+  ]
+}
