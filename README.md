@@ -1,34 +1,40 @@
-# Random Name Generator 🎲
+# 🎲 Random Name Generator
 
-A simple React app that generates random first + last name combinations and lets you copy them to your clipboard.  
-Useful for creating sample data, character names, or just for fun.
+A simple React app that generates fun, unique names at the click of a button.  
+Built as part of my portfolio to practice **React**, **deployment with GitHub Pages**, and **workflow rituals** for clean builds.
 
 ---
 
-## 🚀 Features
-- Generate random names with one click
-- Copy generated names to clipboard
-- Lightweight, responsive UI
-- Easily extendable with more global names
+## 🚀 Live Demo
+
+👉 [View the app here](https://spaceydaisy.github.io/random-name-generator/)
+
+---
+
+## 📸 Preview
+
+<!-- Replace with your own screenshot or GIF -->
+
+![App Demo](public/demo.gif)
+
+---
+
+## ✨ Features
+
+- Generate random names instantly
+- Copy generated names to clipboard with one click
+- Responsive design for desktop and mobile
+- Deployed on GitHub Pages
 
 ---
 
 ## 🛠️ Tech Stack
-- React (functional components + hooks)
-- JavaScript (ES6+)
-- HTML/CSS
+
+- **React** (Create React App → migrating to Vite/React 19 in progress)
+- **JavaScript (ES6+)**
+- **CSS3** for styling
+- **gh-pages** for deployment
 
 ---
 
-## 🎥 Demo
-
-![Random Name Generator Demo](./demo.gif)
-
----
-
-## ⚡ Getting Started
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/random-name-generator.git
-   cd random-name-generator
+## 📂 Project Structure
