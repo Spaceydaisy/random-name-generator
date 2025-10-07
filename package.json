@@ -4,7 +4,6 @@
   "homepage": "https://spaceydaisy.github.io/random-name-generator",
   "private": true,
   "dependencies": {
-  
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^13.4.0",
